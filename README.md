@@ -176,7 +176,7 @@ You never need special syntax, but these shortcuts help:
 | *"Ask me everything at once"* | One round of questions plus a draft proposal (the default for experts) |
 | *"Skip the interview"* | Goes straight to a proposal, listing its assumptions |
 | `go` | Approves the proposal, or the next phase |
-| *"Continue my <name> project"* | Resumes exactly where you stopped, days or weeks later |
+| *"Continue my salon project"* (use your project's name) | Resumes exactly where you stopped, days or weeks later |
 
 ---
 
