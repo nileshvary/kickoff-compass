@@ -1,0 +1,14 @@
+{
+  "name": "kickoff-compass",
+  "description": "Kickoff Compass: turn any project idea into an approved, phased plan before a line of code is written.",
+  "owner": {
+    "name": "Nileshwari Kadgale"
+  },
+  "plugins": [
+    {
+      "name": "kickoff-compass",
+      "source": "./",
+      "description": "Plain-language project kickoff: the right questions, honest options and risks, and a phased plan with checkable 'done' tests."
+    }
+  ]
+}
