@@ -13,6 +13,7 @@
 - README rebuilt: install first, a demo image, the chat-app prompt behind a copy button, commands table.
 - "Share your result" issue form, so people can report how it behaved in ChatGPT, Gemini and other AIs.
 - Downloadable `kickoff-compass.zip` on the release page.
+- README: a highlighted "Start here" box with the chat-app prompt shown open, so it cannot be missed.
 
 ## 1.0.0 (2026-11-14)
 First public release.

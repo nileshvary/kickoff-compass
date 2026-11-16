@@ -13,41 +13,25 @@ you can verify. It works for people who have never written code and for senior e
 A *skill* is a small folder of instructions that your AI loads when it is relevant. You don't run it like a program.
 You describe your idea, and the AI follows the skill.
 
-## What you get
+## Start here
 
-- **A short interview.** 3-5 questions at a time. Every question comes with a recommended answer, so replying
-  `OK` is always enough.
-- **An honest check first.** If a free tool or an existing product already solves your problem, it says so.
-- **A proposal before any work.** Options (build, configure an existing tool, or buy), risks, a phased plan, and
-  rough time and cost.
-- **Tests you can run.** Every phase has a "Done when" check, such as "18 of 20 real questions answered correctly".
-- **Nothing built until you say "go".** Then it works one phase at a time and reports after each one.
-- **Memory.** Close the chat and continue days later. It resumes at the exact next step.
+> [!IMPORTANT]
+> **Use ChatGPT, Gemini, Copilot or any other chat app?** Follow **Option A**. Chat apps cannot install skills, so you
+> paste the instructions once.
+>
+> **Use a coding tool** (Claude Code, Cursor, Codex, Gemini CLI, GitHub Copilot)? Follow **Option B**.
 
-## Install
+### Option A: ChatGPT, Gemini, Copilot or any chat app
 
-| Where you use AI | How | Progress is saved |
-|---|---|---|
-| **Coding agent** (Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, and others that support Agent Skills) | `npx skills add nileshvary/kickoff-compass` | Automatically |
-| **Chat app** (ChatGPT, Gemini, Claude.ai, Microsoft Copilot, Le Chat) | Paste the prompt once (see below) | In a "Progress so far" block you keep |
-| **Your own app or API** | Use the prompt as the system prompt | Same block |
+1. **Copy the prompt.** Click the **copy icon** at the top-right corner of the grey box below.
+2. **Open a new chat** in your AI app, paste it (Ctrl+V) and press Enter.
+3. **Type your idea** as a new message, in your own words. For example:
+   *I run a small bakery and want AI to answer customers' WhatsApp questions.*
 
-**Coding agents.** Run the command, choose your agent when asked, then start a new session and describe your idea,
-or call the skill by name:
+Do not type `/kickoff-compass` in a chat app. That command only works in coding tools (Option B).
 
-```text
-/kickoff-compass I run a small bakery and want AI to answer customers' WhatsApp questions
-```
-
-Update later with `npx skills update`. Prefer a file? Download `kickoff-compass.zip` from the
-[latest release](https://github.com/nileshvary/kickoff-compass/releases/latest).
-
-<details>
-<summary><b>Chat apps: copy this prompt once</b></summary>
-
-Chat apps have no skills system, so there is nothing to install. Copy the block below with its **copy button**,
-paste it into a new chat, then describe your idea. To avoid pasting it every time, save it as a **custom GPT**, a
-**Gemini Gem** or a **Claude Project** ([how](prompt/HOW-TO-USE.md)).
+<details open>
+<summary><b>The prompt to copy</b> (click to hide)</summary>
 
 ```text
 You are Kickoff Compass. Act like a skilled, friendly professional the person has just HIRED to build their project. They are the client and the boss. Order of work: discovery interview, then proposal, then their sign-off, then build phase by phase, then handover.
@@ -90,6 +74,25 @@ Next step: ...
 ```
 </details>
 
+To avoid pasting it every time, save it once as a **custom GPT**, a **Gemini Gem** or a **Claude Project**
+([how](prompt/HOW-TO-USE.md)). Chat apps keep no files, so every reply ends with a short **"Progress so far"**
+block. Copy it to continue later.
+
+### Option B: coding tools (Claude Code, Cursor, Codex, Gemini CLI, GitHub Copilot)
+
+```bash
+npx skills add nileshvary/kickoff-compass
+```
+
+Choose your tool when asked, start a new session, then describe your idea, or call the skill by name:
+
+```text
+/kickoff-compass I run a small bakery and want AI to answer customers' WhatsApp questions
+```
+
+Progress is saved automatically. Update later with `npx skills update`. Prefer a file? Download `kickoff-compass.zip`
+from the [latest release](https://github.com/nileshvary/kickoff-compass/releases/latest).
+
 <details>
 <summary><b>Claude Code plugin</b> (alternative to the command above)</summary>
 
@@ -98,6 +101,19 @@ claude plugin marketplace add nileshvary/kickoff-compass
 claude plugin install kickoff-compass@kickoff-compass
 ```
 </details>
+
+Building your own app? Use the prompt in Option A as its system prompt.
+
+## What you get
+
+- **A short interview.** 3-5 questions at a time. Every question comes with a recommended answer, so replying
+  `OK` is always enough.
+- **An honest check first.** If a free tool or an existing product already solves your problem, it says so.
+- **A proposal before any work.** Options (build, configure an existing tool, or buy), risks, a phased plan, and
+  rough time and cost.
+- **Tests you can run.** Every phase has a "Done when" check, such as "18 of 20 real questions answered correctly".
+- **Nothing built until you say "go".** Then it works one phase at a time and reports after each one.
+- **Memory.** Close the chat and continue days later. It resumes at the exact next step.
 
 ## Example
 

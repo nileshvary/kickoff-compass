@@ -34,4 +34,4 @@ Some apps also have their own memory or project history; the block still works i
 
 ## Coding agents (they can save progress automatically)
 Tools that support the open **Agent Skills** format (`SKILL.md`) can use the full skill, with automatic progress
-saving. See the main [README](../README.md#install).
+saving. See the main [README](../README.md#start-here).
