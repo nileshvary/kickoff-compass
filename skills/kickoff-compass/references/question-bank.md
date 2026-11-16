@@ -1,12 +1,12 @@
 # Question bank
 
 A **menu, not a checklist**. Consider the Core groups for every project, add the module(s) matching the project
-type, then drop, rank and cap as SKILL.md "Questions" says. Every question you ask needs lettered options with the
+type, then drop, rank and cap as SKILL.md Step 2 says. Every question you ask needs lettered options with the
 recommended one first (or *(No default)* for facts only the person knows). Hints in *(italics)* are suggested
 defaults, not text to paste.
 
 Contents: Core (C1–C6) · AI chatbot/assistant · AI agent with tools · Knowledge / RAG · Automation / workflow ·
-Web app / SaaS · Selling & subscriptions · Dashboard / data · Mobile app · API / backend · ML model ·
+Web app / SaaS · Selling & subscriptions · Records, payments tracking & messaging channels · Dashboard / data · Mobile app · API / backend · ML model ·
 Decisions about people (hiring, credit, housing, grading) · Health & wellness · Security tool · Browser extension ·
 Game
 
@@ -23,7 +23,7 @@ Game
 - Have you tried existing tools for this? What was missing? *(Check yourself first. If a strong product exists,
   ask instead: "Should we trial X before building anything?")*
 - Where are you (country or state)? *(No default. Ask it first whenever law, money, health, hiring or sensitive
-  personal data is involved; see SKILL.md "Questions".)*
+  personal data is involved; see SKILL.md Step 2.)*
 
 ### C2. User journey
 - Walk me through what a user does, step by step, from first opening it to getting the result.
@@ -109,6 +109,16 @@ Game
 - Selling through app stores? *(They take a share and have their own rules; verify current terms.)*
 - Refunds, cancellations, free trial? Tax and invoicing where you sell?
 - Privacy policy and terms needed? *(Yes, if you collect any personal data or sell to the public.)*
+
+## MODULE: Records, payments tracking & messaging channels (who paid, lists, bookings, WhatsApp/SMS/email)
+- What exactly must be tracked (who, what, when, how much), and where does it live today (paper, phone, sheet)?
+- Who may see or change the records? *(Recommend: only the owner. Keep amounts and personal details minimal.)*
+- Does the system only record, or also message people? *(Recommend: record and draft; a human sends anything about
+  money or changes.)*
+- Which channel do customers use (WhatsApp, SMS, email, Instagram)? *(Automating a personal WhatsApp account can
+  break its terms; business tools have their own rules. Verify before planning on it.)*
+- Are any customers children? *(Then keep only what's needed, and put parent details only where required.)*
+- What is the cost of a mistake here (wrong amount, missed booking)? *(Sets how much human checking is needed.)*
 
 ## MODULE: Dashboard / data
 - Which numbers matter most, the first 3–5 things someone looks at?

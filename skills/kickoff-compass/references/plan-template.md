@@ -3,11 +3,14 @@
 Use it twice:
 - **Draft** in the proposal (or, for experts, in the first reply): only what the length budget allows (beginners: the phases table, success
   measures and out-of-scope). The playback already covers the brief, so don't repeat it.
-- **Final**, after the answers: the full layout below, saved on sign-off (SKILL.md Step 4).
+- **Final**, after the answers: the full layout below, saved at "go" (see building.md).
 
 Pick the layout for the path: **Build** (new software) or **Configure / Buy / Advice** (existing tools).
 
 ## Build layout
+
+*Use this when new software is built. With a beginner, describe Phase 0 in plain words ("set up a safe
+workspace and a way to check your work") and leave out terms like version control and CI.*
 
 ```markdown
 # <Project name>: Plan

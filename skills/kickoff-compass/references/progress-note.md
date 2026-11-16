@@ -5,7 +5,7 @@ Create the folder if it doesn't exist. `<short-name>` is 2-4 lowercase words joi
 (e.g. `dog-salon-booking`).
 
 **When:** create it just before sending the first reply; update it every time you reply; set the status to
-`moved` once the plan is saved in a project (SKILL.md Step 4, "On sign-off"), or to `done` / `dropped` if the person says so.
+`moved` once the plan is saved in a project (see building.md), or to `done` / `dropped` if the person says so.
 
 **Never store:** passwords, keys, tokens, or personal data the plan doesn't need. Write facts and decisions, not
 whole conversations.
@@ -38,7 +38,7 @@ whole conversations.
 | 2 | answered | A (owner confirms) |
 | 3 | open | |
 
-## Open questions, full text   (copied exactly as sent, so they can be asked again word for word)
+## Open questions, full text   (copied exactly as sent. If more than 6 are open, keep the number, the question and its option letters in one line each)
 **3. <question>**
 - **A. <option> (recommended):** <reason>
 - B. <option>
