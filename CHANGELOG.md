@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased (2026-11-16)
+- Docs: updated the compatibility section. No changes to the skill or the prompt.
+- Removed the "Share your result" issue form.
+
 ## 1.1.0 (2026-11-15)
 - Install is now one line: `npx skills add nileshvary/kickoff-compass`, plus `/kickoff-compass` switches
   (`continue`, `quick`, `all-at-once`).

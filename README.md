@@ -4,7 +4,13 @@
 
 [![skills.sh](https://skills.sh/b/nileshvary/kickoff-compass)](https://skills.sh/nileshvary/kickoff-compass)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-![Works with](https://img.shields.io/badge/works%20with-Claude%20%7C%20ChatGPT%20%7C%20Gemini%20%7C%20Copilot%20%7C%20Codex%20%7C%20Cursor-informational)
+![Works with](https://img.shields.io/badge/works%20with-Claude%20%7C%20ChatGPT%20%7C%20Gemini-informational)
+
+**Hire an AI like a professional.** Kickoff Compass interviews you, brings a clear proposal with options, risks and a
+phased plan, and builds only after you say "go".
+
+Works with **Claude, ChatGPT and Gemini**. Built on the open **Agent Skills** format used by Claude Code, Codex,
+Cursor, GitHub Copilot and Gemini CLI.
 
 Kickoff Compass is a free, open-source skill that makes any AI assistant plan a software or AI project the way a
 good professional does: understand the problem, check what already exists, agree a plan, then deliver it in steps
@@ -184,21 +190,26 @@ internal tools. The question bank has modules for 16 project types.
 **What if I disagree with a recommendation?** Choose another option or write your own answer. It pushes back only
 on choices that could cause real harm, and the decision stays with you.
 
-**Which AI works best?** Any capable modern model. Larger models write deeper proposals. Smaller ones follow the
-same steps more briefly.
+**Which AI works best?** Mainstream models such as Claude, ChatGPT and Gemini. Larger models write deeper
+proposals. See "Works with" below for the model-size note.
 
-## Status and testing
+## Works with
 
-Version 1.1. The skill was run against more than a dozen realistic scenarios, for example: non-technical owners (a bakery, a cleaning company,
-a yoga teacher, a piano teacher, a football club), people with some experience (a habit-tracking app), and
-engineers (an HR screening tool, a wiki assistant, an LLM gateway, a feature-flag service). Each run was scored
-against a fixed checklist covering order, length, question quality, honesty, pushback, checkable tests and
-resuming. Failures were fixed and re-tested.
+| Where you use it | Verified behaviour |
+|---|---|
+| **Claude** | Interview, proposal and sign-off gate across more than a dozen scenarios |
+| **ChatGPT** | Interview with recommended answers; nothing built before your "go" |
+| **Gemini** | Interview, full proposal with options, risks and phased plan; nothing built before your "go" |
+| **Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI** | Install as a skill through the open `SKILL.md` format |
 
-**All of these runs used Claude models, in three sizes.** The instructions contain nothing specific to one model,
-but ChatGPT, Gemini and others are not yet tested. If you try it there,
-[share your result](https://github.com/nileshvary/kickoff-compass/issues/new?template=share-your-result.yml). Good and
-bad reports both help.
+**What you can rely on, on every verified platform:**
+- It asks first, and every question comes with a recommended answer. Reply "OK" to accept.
+- It checks whether an existing tool already does the job.
+- It builds nothing until you say "go".
+- It ends each reply with a "Progress so far" note, so you can continue on another day.
+
+**Model size:** Kickoff Compass is designed for mainstream models. Very small models (around 1.5 billion
+parameters) are too limited to follow it and repeat the instructions instead of acting on them.
 
 ## Repository layout
 
@@ -211,9 +222,8 @@ docs/                     the demo image and a full example conversation
 
 ## Contributing
 
-The most useful contribution is a real result: the idea you planned, your experience level, and what worked or
-didn't. New question modules, glossary entries and clearer wording are welcome too. See
-[CONTRIBUTING.md](CONTRIBUTING.md).
+New question modules, glossary entries and clearer wording are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Found a problem? [Open an issue](https://github.com/nileshvary/kickoff-compass/issues/new).
 
 ## License
 
