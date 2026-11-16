@@ -17,6 +17,7 @@ Thanks for helping make project kickoffs better for everyone.
 - Test your change: run the skill on at least two scenarios (one beginner, one expert) and describe the result
   in your pull request.
 - Keep `prompt/kickoff-compass-prompt.md` in step with the skill and under 3,800 characters, so it fits every chat app.
+  The README embeds the same text in its "copy this prompt" block, so update both together.
 - If you have Claude Code, run `claude plugin validate .` before opening a pull request.
 
 ## Code of conduct

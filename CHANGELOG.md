@@ -10,7 +10,9 @@
 - Facts are labelled official source, third-party (vendor-written), sources disagree, or estimate; clear wording
   when the AI cannot search the web.
 - New question module: records, payments tracking and messaging channels.
-- README rebuilt: one-line install first, the chat-app prompt behind a copy button, switches table.
+- README rebuilt: install first, a demo image, the chat-app prompt behind a copy button, commands table.
+- "Share your result" issue form, so people can report how it behaved in ChatGPT, Gemini and other AIs.
+- Downloadable `kickoff-compass.zip` on the release page.
 
 ## 1.0.0 (2026-11-14)
 First public release.

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="560" viewBox="0 0 880 560" role="img" aria-label="Example conversation: a bakery owner describes an idea, Kickoff Compass interviews them and proposes a plan">
+  <rect width="880" height="560" rx="14" fill="#0d1117"/>
+  <rect width="880" height="38" rx="14" fill="#161b22"/>
+  <rect y="24" width="880" height="14" fill="#161b22"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="19" r="6" fill="#27c93f"/>
+  <text x="440" y="24" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#8b949e" text-anchor="middle">/kickoff-compass</text>
+  <g font-family="ui-monospace,Menlo,Consolas,monospace" font-size="14">
+    <text x="28" y="74" fill="#58a6ff" font-weight="bold">You</text>
+    <text x="80" y="74" fill="#e6edf3">I run a small bakery. People ask the same WhatsApp questions all day.</text>
+    <text x="80" y="94" fill="#e6edf3">Can AI help? I'm not technical. Where do I start?</text>
+
+    <text x="28" y="134" fill="#3fb950" font-weight="bold">AI</text>
+    <text x="80" y="134" fill="#e6edf3">Think of me as the builder you've just hired. First, a short interview.</text>
+    <text x="80" y="160" fill="#d29922">Honest first thing:</text>
+    <text x="252" y="160" fill="#e6edf3">WhatsApp Business already has free auto-replies.</text>
+    <text x="80" y="180" fill="#e6edf3">We may not need to build anything. Let's confirm.</text>
+
+    <text x="80" y="214" fill="#e6edf3">1. Which country are you in?</text>
+    <text x="350" y="214" fill="#8b949e">(no default: privacy rules depend on it)</text>
+    <text x="80" y="238" fill="#e6edf3">2. Who confirms cake orders?</text>
+    <text x="100" y="258" fill="#e6edf3">A. You, after the AI collects the details</text>
+    <text x="490" y="258" fill="#3fb950">(recommended)</text>
+    <text x="100" y="278" fill="#e6edf3">B. The AI confirms on its own</text>
+    <text x="80" y="302" fill="#e6edf3">3. What should it say about gluten-free?</text>
+    <text x="100" y="322" fill="#e6edf3">A. Only your approved wording; allergies go to you</text>
+    <text x="570" y="322" fill="#3fb950">(recommended)</text>
+    <text x="80" y="352" fill="#8b949e">Reply like "1: Ireland, 2A, 3A", or just "OK" to take my recommendations.</text>
+
+    <text x="28" y="394" fill="#58a6ff" font-weight="bold">You</text>
+    <text x="80" y="394" fill="#e6edf3">1: Ireland, OK</text>
+
+    <text x="28" y="434" fill="#3fb950" font-weight="bold">AI</text>
+    <text x="80" y="434" fill="#d29922">PROPOSAL</text>
+    <text x="170" y="434" fill="#e6edf3">3 options (free tools / AI helper / custom build), with risks,</text>
+    <text x="80" y="454" fill="#e6edf3">a 4-phase plan, rough time and cost.</text>
+    <text x="80" y="480" fill="#e6edf3">Phase 2 "Done when":</text>
+    <text x="260" y="480" fill="#3fb950">18 of 20 real past questions answered correctly</text>
+    <text x="80" y="510" fill="#e6edf3">If this looks right, say</text>
+    <text x="296" y="510" fill="#d29922" font-weight="bold">"go"</text>
+    <text x="342" y="510" fill="#e6edf3">. Nothing is built before that.</text>
+  </g>
+</svg>
